@@ -1,7 +1,6 @@
 import MobileFrame from "../components/MobileFrame";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 
 export default function Prediction() {
 
@@ -101,7 +100,7 @@ export default function Prediction() {
                 </div>
 
             </div>
-            <BottomNav />
+         
         </MobileFrame>
     );
 

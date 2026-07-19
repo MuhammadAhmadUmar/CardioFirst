@@ -2,7 +2,6 @@ import { HeartPulse } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import MobileFrame from "../components/MobileFrame";
-import BottomNav from "../components/BottomNav";
 
 export default function Splash() {
 
@@ -36,7 +35,6 @@ export default function Splash() {
                 <p>Predict • Prevent • Protect</p>
 
             </div>
-            <BottomNav />
         </MobileFrame>
 
     );

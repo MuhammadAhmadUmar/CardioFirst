@@ -9,7 +9,6 @@ import {
     Stethoscope
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 
 export default function Recommendations() {
 
@@ -92,7 +91,6 @@ export default function Recommendations() {
                 </div>
 
             </div>
-            <BottomNav />
         </MobileFrame>
 
     );

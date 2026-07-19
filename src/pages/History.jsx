@@ -1,7 +1,6 @@
 import MobileFrame from "../components/MobileFrame";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 
 export default function History() {
 
@@ -69,7 +68,7 @@ export default function History() {
                 </div>
 
             </div>
-            <BottomNav />
+           
         </MobileFrame>
 
     );

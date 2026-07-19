@@ -8,7 +8,6 @@ import {
     ChevronRight
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
 
 export default function Home() {
 
@@ -131,7 +130,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <BottomNav />
+         
         </MobileFrame>
 
     );
