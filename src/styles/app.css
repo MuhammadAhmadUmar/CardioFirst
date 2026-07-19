@@ -11,18 +11,12 @@ background:#e8eef3;
 
 }
 
-.page{
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-min-height:100vh;
-
-padding:40px;
-
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #eef3f8;
 }
 
 .phone{
