@@ -20,21 +20,24 @@ export default function Result() {
 
                 <div className="resultHeader">
 
-                    <HeartPulse size={70} color="#16A34A" />
+                    <HeartPulse size={70} color="#F59E0B" />
 
-                    <h1>Low Risk</h1>
+                    <h1 style={{color:"#F59E0B"}}>Moderate Risk</h1>
 
-                    <p>
-                        Your predicted risk of heart disease is low.
-                    </p>
-
+<p>
+    Your health profile indicates a moderate risk of heart disease.
+    Lifestyle changes and regular medical follow-up are recommended.
+</p>
                 </div>
 
                 <div className="scoreCard">
 
-                    <div className="scoreCircle">
+                    <div
+    className="scoreCircle"
+    style={{background:"#F59E0B"}}
+>
 
-                        <span>12%</span>
+                        <span>64%</span>
 
                     </div>
 
@@ -56,15 +59,15 @@ export default function Result() {
 
                     <ul>
 
-                        <li>✔ Healthy Blood Pressure</li>
+<li>Elevated Resting Blood Pressure</li>
 
-                        <li>✔ Normal Cholesterol</li>
+<li>Increased Serum Cholesterol</li>
 
-                        <li>✔ Good Heart Rate</li>
+<li> Age-related Cardiovascular Risk</li>
 
-                        <li>✔ No Exercise-Induced Angina</li>
+<li> Mild Exercise-Induced Angina</li>
 
-                    </ul>
+</ul>
 
                 </div>
 
