@@ -8,25 +8,28 @@ export default function History() {
 
     const history = [
 
-        {
-            date: "18 July 2026",
-            risk: "Moderate Risk",
-            confidence: "94%"
-        },
+    {
+        date: "18 July 2026",
+        risk: "Moderate Risk",
+        confidence: "94%",
+        color: "#F59E0B"
+    },
 
-        {
-            date: "10 July 2026",
-            risk: "Low Risk",
-            confidence: "97%"
-        },
+    {
+        date: "10 July 2026",
+        risk: "Low Risk",
+        confidence: "97%",
+        color: "#16A34A"
+    },
 
-        {
-            date: "25 June 2026",
-            risk: "High Risk",
-            confidence: "91%"
-        }
+    {
+        date: "25 June 2026",
+        risk: "High Risk",
+        confidence: "91%",
+        color: "#DC2626"
+    }
 
-    ];
+];
 
     return (
 
@@ -51,9 +54,9 @@ export default function History() {
 
                         history.map((item, index) => (
 
-                            <div className="historyCard" key={index}>
+                            <div className="historyCard" key={index} style={{borderLeft:`5px solid ${item.color}`}}>
 
-                                <h3>{item.risk}</h3>
+                                <h3 style={{color: item.color}}>{item.risk}</h3>
 
                                 <p>{item.date}</p>
 
