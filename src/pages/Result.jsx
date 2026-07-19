@@ -65,9 +65,7 @@ export default function Result() {
 
 <li> Exercise-Induced Angina Present</li>
 
-<li> Abnormal Resting ECG Findings</li>
 
-<li> Age and Multiple Cardiovascular Risk Factors</li>
 
 </ul>
 
